@@ -12,10 +12,9 @@ npm install nedux-persist --save
 
 ## 💻 Usage with examples
 
-|     Name     |                                         Source                                         |                                              Codesandbox                                              |
-| :----------: | :------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------: |
-| ✅ Todo List |         [here](https://github.com/lucasmrdt/nedux/tree/master/examples/todos)          |      [here](https://codesandbox.io/s/nedux-todos-nm8j0?fontsize=14&hidenavigation=1&theme=dark)       |
-|  🎛 Counter   | [here](https://github.com/lucasmrdt/nedux/tree/master/examples/counter-nedux-vs-redux) | [here](https://codesandbox.io/s/counter-nedux-vs-redux-n34b2?fontsize=14&hidenavigation=1&theme=dark) |
+|        Name         |                                        Codesandbox                                         |
+| :-----------------: | :----------------------------------------------------------------------------------------: |
+| 🔒 Persisting Token | [here](https://codesandbox.io/s/new-feather-777tm?fontsize=14&hidenavigation=1&theme=dark) | [here](https://codesandbox.io/s/nedux-todos-nm8j0?fontsize=14&hidenavigation=1&theme=dark) |
 
 ## 📜 Documentation
 
