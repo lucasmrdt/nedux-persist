@@ -36,7 +36,7 @@
   "author": "lucasmrdt",
   "license": "ISC",
   "peerDependencies": {
-    "nedux": ">=1.0.4"
+    "nedux": ">=1.0.20"
   },
   "devDependencies": {
     "@babel/core": "^7.7.4",
@@ -45,7 +45,7 @@
     "@babel/preset-typescript": "^7.7.4",
     "@rollup/plugin-node-resolve": "^6.0.0",
     "@rollup/plugin-replace": "^2.2.1",
-    "nedux": "^1.0.13",
+    "nedux": "^1.0.21",
     "rollup": "^1.27.8",
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-terser": "^5.1.2",
