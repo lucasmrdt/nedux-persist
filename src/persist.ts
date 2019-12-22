@@ -29,7 +29,8 @@ export const persistKeys = <T, K extends keyof T = keyof T>(
         setter(key, value);
       } else {
         isHydrated = true;
-        store.set(key, await getter(key));
+        const persistedValue = await getter(key);
+        persistedValue && store.set(key, persistedValue);
       }
     };
 
