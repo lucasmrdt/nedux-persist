@@ -30,7 +30,9 @@ export const persistKeys = <T, K extends keyof T = keyof T>(
       } else {
         isHydrated = true;
         const persistedValue = await getter(key);
-        persistedValue !== undefined && persistedValue !== null && store.set(key, persistedValue);
+        if (persistedValue !== null) {
+          store.set(key, persistedValue);
+        }
       }
     };
 
