@@ -59,7 +59,7 @@ type Store = {
 
 const store = createStore<Store>(
   { token: '', useless: 0 },
-  persistKeys(['token']),
+  [persistKeys(['token'])],
 );
 
 store.subscribe('token', { next: token => console.log(`token: ${token}`) });
